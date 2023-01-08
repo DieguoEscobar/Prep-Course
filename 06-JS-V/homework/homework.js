@@ -79,7 +79,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   dir=Persona.domicilio
 
   var nuevaPersona= new Persona("Juan", "Perez", 22, "Saavedra 123");
-  return nuevaPersona;
+  return nuevaPersona; // esta línea no es necesaria
 }
   
 function agregarMetodo() {
